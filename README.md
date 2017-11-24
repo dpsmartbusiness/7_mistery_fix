@@ -29,12 +29,15 @@ def get_roots(a, b, c):
  3. Дискриминант принимает любое другое значение отличное от 1. и 2. пунктов ( Дискриминант < 0); Результат: Уравнение не имеет корней (None, None)
  
 ```python
+'''Дискриминант > 0'''       
 root1, root2 = get_roots(1, 2, -3)
 print (root1,root2)
 
+''' Дискриминант = 0'''
 root1, root2 = get_roots(1, -2, 1)
 print (root1,root2)
 
+'''Дискриминант < 0'''
 root1, root2 = get_roots(1, 2, 3)
 print (root1,root2)
 ```
