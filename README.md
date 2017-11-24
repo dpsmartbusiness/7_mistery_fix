@@ -18,16 +18,19 @@ from quadratic_equation import get_roots
 '''Дискриминант > 0'''       
 root1, root2 = get_roots(1, 2, -3)
 print (root1,root2)
+```Ответ: -3.0 1.0```
 
 
 ''' Дискриминант = 0'''
 root1, root2 = get_roots(1, -2, 1)
 print (root1,root2)
+```Ответ: 1.0 None```
 
 
 '''Дискриминант < 0'''
 root1, root2 = get_roots(1, 2, 3)
 print (root1,root2)
+```Ответ: None None```
 ```
 
 # Как запустить
